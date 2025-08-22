@@ -11,7 +11,7 @@ def trunc(a):
 def f(x):
     return trunc(x**3 - 6*x**2 + 2)
 
-print(f'{'k':<3} {'x_k':>7} {'f_k':>7} {'I':^7}')
+print(f'{'k':<3} {'x_k':>7} {'f(x_k)':>7} {'I':^7}')
 print('-'*30)
 print(f'{0:<3} {a:>{D+4}.{D}f} {f(a):>{D+4}.{D}f} {'-;-':>7}')
 print(f'{1:<3} {b:>{D+4}.{D}f} {f(b):>{D+4}.{D}f} {'-;-':>7}')
