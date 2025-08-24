@@ -29,7 +29,7 @@ else:
     while (k < kmax):
         print(f'{k:<3} {xk:>{D+4}.{D}f} {f(xk):>{D+4}.{D}f} {g(xk):>{D+4}.{D}f}')
 
-        if (abs(g(xk)-xk) < 10**(-D)): # Find 0 with D decimal places of precision
+        if (abs(g(xk)-xk) < 10**(-D)): # Found 0 with D decimal places of precision
             print('Converged: error below tolerance!')
             break
         

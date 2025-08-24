@@ -33,7 +33,7 @@ else:
     while (k < kmax):
         print(f'{k:<3} {xk:>{D+4}.{D}f} {f(xk):>{D+4}.{D}f} {f'{i};{j}':>7}')
 
-        if (abs(f(xk)) < 10**(-D)): # Find 0 with D decimal places of precision
+        if (abs(f(xk)) < 10**(-D)): # Found 0 with D decimal places of precision
             print('Converged: error below tolerance!')
             break
         
